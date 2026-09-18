@@ -1,0 +1,11 @@
+background = "#ffffff"
+foreground = "#181818"
+muted = "#606060"
+border = "#8b8b8b"
+button_background = "#f3f3f3"
+button_hover = "#e7e7e7"
+font_family = "Arial"
+body_font = (font_family, 11)
+card_title_font = (font_family, 14)
+heading_font = (font_family, 20)
+discount_font = (font_family, 16)
