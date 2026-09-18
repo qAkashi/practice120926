@@ -1,7 +1,5 @@
 ============================= test session starts =============================
-platform win32 -- Python 3.12.14, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\kamil\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe
-rootdir: C:\Users\kamil\Documents\Codex\2026-09-10\files-mentioned-by-the-user-import\outputs\partner_discount
-collecting ... collected 9 items
+platform win32 -- Python 3.12.14, pytest-9.1.1, pluggy-1.6.0 
 
 test_partner_discount.py::test_calculate_partner_discount[0-0] PASSED    [ 11%]
 test_partner_discount.py::test_calculate_partner_discount[9999-0] PASSED [ 22%]
