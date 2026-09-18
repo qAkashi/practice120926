@@ -1,0 +1,51 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.14, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\kamil\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe
+rootdir: C:\Users\kamil\Documents\Codex\2026-09-10\files-mentioned-by-the-user-import\outputs\hexlet_final
+configfile: pytest.ini
+collecting ... collected 37 items
+
+tests\test_discount.py::test_discount_boundaries[0-0] PASSED             [  2%]
+tests\test_discount.py::test_discount_boundaries[9999-0] PASSED          [  5%]
+tests\test_discount.py::test_discount_boundaries[10000-5] PASSED         [  8%]
+tests\test_discount.py::test_discount_boundaries[49999-5] PASSED         [ 10%]
+tests\test_discount.py::test_discount_boundaries[50000-10] PASSED        [ 13%]
+tests\test_discount.py::test_discount_boundaries[299999-10] PASSED       [ 16%]
+tests\test_discount.py::test_discount_boundaries[300000-15] PASSED       [ 18%]
+tests\test_discount.py::test_discount_boundaries[300001-15] PASSED       [ 21%]
+tests\test_discount.py::test_discount_boundaries[1000000-15] PASSED      [ 24%]
+tests\test_service.py::test_no_sales_returns_zero PASSED                 [ 27%]
+tests\test_service.py::test_empty_delivery_returns_zero PASSED           [ 29%]
+tests\test_service.py::test_null_or_zero_quantity_in_history[None] PASSED [ 32%]
+tests\test_service.py::test_null_or_zero_quantity_in_history[0] PASSED   [ 35%]
+tests\test_service.py::test_python_normalizes_null_from_data_layer PASSED [ 37%]
+tests\test_service.py::test_all_periods_and_items_are_summed_without_other_partner PASSED [ 40%]
+tests\test_service.py::test_list_includes_no_sales_and_is_sorted PASSED  [ 43%]
+tests\test_service.py::test_empty_database PASSED                        [ 45%]
+tests\test_service.py::test_unknown_partner PASSED                       [ 48%]
+tests\test_service.py::test_reject_invalid_id[0] PASSED                  [ 51%]
+tests\test_service.py::test_reject_invalid_id[-1] PASSED                 [ 54%]
+tests\test_service.py::test_reject_invalid_id[True] PASSED               [ 56%]
+tests\test_service.py::test_reject_invalid_id[1 OR 1=1] PASSED           [ 59%]
+tests\test_service.py::test_reject_invalid_id[1.5] PASSED                [ 62%]
+tests\test_ui.py::test_auto_load_no_history_email_and_zero_discount PASSED [ 64%]
+tests\test_ui.py::test_startup_opens_login_and_cancel_is_safe PASSED     [ 67%]
+tests\test_ui.py::test_submit_password_loads_without_extra_button PASSED [ 70%]
+tests\test_ui.py::test_refresh_recalculates_discount_from_database PASSED [ 72%]
+tests\test_ui.py::test_search_and_empty_results PASSED                   [ 75%]
+tests\test_ui.py::test_failure_is_visible_and_retry_works[offline] PASSED [ 78%]
+tests\test_ui.py::test_failure_is_visible_and_retry_works[password] PASSED [ 81%]
+tests\test_ui.py::test_failure_is_visible_and_retry_works[missing_tables] PASSED [ 83%]
+tests\test_ui.py::test_failure_is_visible_and_retry_works[timeout] PASSED [ 86%]
+tests\test_ui.py::test_failure_is_visible_and_retry_works[config] PASSED [ 89%]
+tests\test_ui.py::test_failure_is_visible_and_retry_works[permissions] PASSED [ 91%]
+tests\test_ui.py::test_failure_is_visible_and_retry_works[unexpected] PASSED [ 94%]
+tests\test_ui.py::test_unavailable_real_server_is_handled PASSED         [ 97%]
+tests\test_ui.py::test_slow_load_does_not_freeze_window_and_close_is_safe PASSED [100%]
+
+============================= 37 passed in 8.72s ==============================
+Name                  Stmts   Miss Branch BrPart  Cover   Missing
+-----------------------------------------------------------------
+partner_discount.py       8      0      6      0   100%
+partner_service.py       22      0      4      0   100%
+-----------------------------------------------------------------
+TOTAL                    30      0     10      0   100%

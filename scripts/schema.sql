@@ -1,3 +1,5 @@
+BEGIN;
+
 DROP TABLE IF EXISTS delivery_items;
 DROP TABLE IF EXISTS deliveries;
 DROP TABLE IF EXISTS products;

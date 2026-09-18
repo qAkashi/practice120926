@@ -28,7 +28,6 @@ FROM first_delivery d CROSS JOIN chosen_product p
 RETURNING delivery_id, line_number, product_id, quantity, unit_price,
           ROUND(quantity * unit_price, 2)::DECIMAL(24,2) AS line_amount;
 COMMIT;
-rollback;
 
 WITH params AS (
     SELECT 1::INT AS partner_id,
