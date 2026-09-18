@@ -10,11 +10,6 @@ def get_partner_with_discount(
     connection: psycopg.Connection,
     partner_id: int,
 ) -> dict[str, Any] | None:
-    """Получить карточку партнера, общий объем покупок и текущую скидку.
-
-    Для неизвестного ID возвращается None. Для партнера без покупок —
-    total_quantity = 0 и discount_percent = 0. Соединением управляет вызывающий код.
-    """
     if type(partner_id) is not int or partner_id <= 0:
         raise ValueError("ID партнера должен быть положительным целым числом.")
 
