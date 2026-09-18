@@ -1,5 +1,5 @@
 def calculate_partner_discount(total_quantity: int) -> int:
-    """Вернуть целый процент скидки по объему продукции за весь период."""
+    
     if total_quantity < 10_000:
         return 0
     if total_quantity < 50_000:
