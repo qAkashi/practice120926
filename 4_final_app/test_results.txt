@@ -1,6 +1,6 @@
 ============================= test session starts =============================
-platform win32 -- Python 3.12.14, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\kamil\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe
-rootdir: C:\Users\kamil\Documents\Codex\2026-09-10\files-mentioned-by-the-user-import\outputs\hexlet_final
+platform win32 -- Python 3.12.14, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\kamil\.cache\dependencies\python\python.exe
+rootdir: C:\Users\kamil\Documents\hexlet
 configfile: pytest.ini
 collecting ... collected 37 items
 
