@@ -1,0 +1,24 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.14, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\kamil\.cache\dependencies\python\python.exe
+rootdir: C:\Users\kamil\Documents\2_database_integration
+collecting ... collected 17 items
+
+test_partner_service.py::test_partner_without_deliveries PASSED          [  5%]
+test_partner_service.py::test_unknown_partner PASSED                     [ 11%]
+test_partner_service.py::test_discount_boundaries_from_database[9999-0] PASSED [ 17%]
+test_partner_service.py::test_discount_boundaries_from_database[10000-5] PASSED [ 23%]
+test_partner_service.py::test_discount_boundaries_from_database[49999-5] PASSED [ 29%]
+test_partner_service.py::test_discount_boundaries_from_database[50000-10] PASSED [ 35%]
+test_partner_service.py::test_discount_boundaries_from_database[299999-10] PASSED [ 41%]
+test_partner_service.py::test_discount_boundaries_from_database[300000-15] PASSED [ 47%]
+test_partner_service.py::test_discount_boundaries_from_database[300001-15] PASSED [ 52%]
+test_partner_service.py::test_sum_all_deliveries_and_items_only_for_requested_partner PASSED [ 58%]
+test_partner_service.py::test_repeated_call_reads_updated_quantity PASSED [ 64%]
+test_partner_service.py::test_empty_delivery PASSED                      [ 70%]
+test_partner_service.py::test_invalid_partner_id[0] PASSED               [ 76%]
+test_partner_service.py::test_invalid_partner_id[-1] PASSED              [ 82%]
+test_partner_service.py::test_invalid_partner_id[True] PASSED            [ 88%]
+test_partner_service.py::test_invalid_partner_id[1 OR 1=1] PASSED        [ 94%]
+test_partner_service.py::test_invalid_partner_id[1.5] PASSED             [100%]
+
+============================= 17 passed in 2.66s ==============================
