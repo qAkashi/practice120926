@@ -28,7 +28,7 @@ FROM first_delivery d CROSS JOIN chosen_product p
 RETURNING delivery_id, line_number, product_id, quantity, unit_price,
           ROUND(quantity * unit_price, 2)::DECIMAL(24,2) AS line_amount;
 COMMIT;
-
+rollback;
 
 WITH params AS (
     SELECT 1::INT AS partner_id,
@@ -51,4 +51,22 @@ SELECT delivery_id, delivery_date, partner_id, company_name, line_number,
        SUM(line_amount) OVER (PARTITION BY delivery_id)::DECIMAL(24,2) AS delivery_total
 FROM history
 ORDER BY delivery_date, delivery_id, line_number;
+SELECT
+    p.company_name,
+    p.inn,
+    d.delivery_id,
+    d.delivery_date,
+    pr.product_name,
+    di.quantity,
+    di.unit_price,
+    ROUND(di.quantity * di.unit_price, 2) AS line_amount
+FROM public.partners p
+JOIN public.deliveries d
+    ON d.partner_id = p.partner_id
+JOIN public.delivery_items di
+    ON di.delivery_id = d.delivery_id
+JOIN public.products pr
+    ON pr.product_id = di.product_id
+WHERE p.inn = '990000000001'
+ORDER BY d.delivery_id, di.line_number;
 

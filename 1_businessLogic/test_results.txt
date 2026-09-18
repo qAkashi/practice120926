@@ -1,0 +1,21 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.14, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\kamil\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe
+rootdir: C:\Users\kamil\Documents\Codex\2026-09-10\files-mentioned-by-the-user-import\outputs\partner_discount
+collecting ... collected 9 items
+
+test_partner_discount.py::test_calculate_partner_discount[0-0] PASSED    [ 11%]
+test_partner_discount.py::test_calculate_partner_discount[9999-0] PASSED [ 22%]
+test_partner_discount.py::test_calculate_partner_discount[10000-5] PASSED [ 33%]
+test_partner_discount.py::test_calculate_partner_discount[49999-5] PASSED [ 44%]
+test_partner_discount.py::test_calculate_partner_discount[50000-10] PASSED [ 55%]
+test_partner_discount.py::test_calculate_partner_discount[299999-10] PASSED [ 66%]
+test_partner_discount.py::test_calculate_partner_discount[300000-15] PASSED [ 77%]
+test_partner_discount.py::test_calculate_partner_discount[300001-15] PASSED [ 88%]
+test_partner_discount.py::test_calculate_partner_discount[1000000-15] PASSED [100%]
+
+============================== 9 passed in 0.04s ==============================
+Name                  Stmts   Miss Branch BrPart  Cover   Missing
+-----------------------------------------------------------------
+partner_discount.py       8      0      6      0   100%
+-----------------------------------------------------------------
+TOTAL                     8      0      6      0   100%
