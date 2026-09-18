@@ -9,10 +9,8 @@ from partner_discount import calculate_partner_discount
 def get_partner_with_discount(
     connection: psycopg.Connection,
     partner_id: int,
-) -> dict[str, Any] | None:
-   
-    
-   
+) -> dict[str, Any] | None:  
+
     if type(partner_id) is not int or partner_id <= 0:
         raise ValueError("ID партнера должен быть положительным целым числом.")
 
