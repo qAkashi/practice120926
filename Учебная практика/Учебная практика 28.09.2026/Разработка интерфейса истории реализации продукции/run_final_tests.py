@@ -4,7 +4,7 @@ from getpass import getpass
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from project_paths import calculator_ui_directory, configure_imports, materials_directory
+from project_paths import audit_directory, calculator_ui_directory, configure_imports, materials_directory
 
 configure_imports()
 
@@ -35,6 +35,7 @@ def run_final_tests() -> int:
         result = int(pytest.main([
             str(directory / "tests"), str(materials_directory / "tests"),
             str(calculator_ui_directory / "tests"), "--rootdir", str(directory.parent),
+            str(audit_directory / "tests"),
             "-c", str(directory / "pytest.ini"), "-v", "-p", "no:cacheprovider",
         ]))
     finally:

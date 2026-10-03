@@ -3,6 +3,7 @@ from tkinter import ttk
 
 import material_reference_data
 import theme
+from app_logging import log_error, log_validation
 from dialogs import show_error
 from material_calculator import calculate_material_quantity
 
@@ -118,11 +119,18 @@ class MaterialWindow(tk.Toplevel):
             param_2 = float(self.values["param_2"].get().strip().replace(",", "."))
             result = self.calculator(product_type_id, material_type_id, quantity, param_1, param_2)
             if result == -1:
+                log_validation("Расчёт сырья", "Метод вернул -1: неизвестный тип или недопустимые параметры.")
                 self.show_input_error()
                 return
             self.result_text.set(f"Необходимое количество сырья: {result}")
-        except (ValueError, TypeError, ArithmeticError):
+        except (ValueError, TypeError, ArithmeticError) as error:
+            log_error("Расчёт сырья", error, "Неверный формат чисел. Проверьте ID, количество и параметры продукции.")
             self.show_input_error()
+        except Exception as error:
+            log_error("Расчёт сырья", error, "Непредвиденная ошибка метода расчёта.")
+            show_error(self, "Ошибка расчёта сырья",
+                       "Расчёт временно недоступен. Повторите попытку. "
+                       "Если ошибка повторяется, передайте журнал app.log для проверки.")
 
     def show_input_error(self):
         show_error(

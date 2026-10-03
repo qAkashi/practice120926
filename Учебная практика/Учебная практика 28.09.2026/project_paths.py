@@ -29,13 +29,16 @@ materials_directory = find_module_directory(
     practice_directory, "Разработка ядра алгоритма расчета материалов", "material_calculator.py",
 )
 calculator_ui_directory = find_module_directory(
-    practice_directory, "Модульное тестирование (Unit Testing) и аудит безопасности", "material_main_window.py",
+    practice_directory, "Интеграция метода расчета и комплексное тестирование", "material_main_window.py",
+)
+audit_directory = find_module_directory(
+    practice_directory, "Модульное тестирование (Unit Testing) и аудит безопасности", "app_logging.py",
 )
 
 
 def configure_imports():
     # Общие модули предыдущего этапа используются без изменения его версии.
     for directory in (navigation_directory, form_directory, crud_directory, ux_directory,
-                      history_directory, materials_directory, calculator_ui_directory):
+                      history_directory, materials_directory, calculator_ui_directory, audit_directory):
         if str(directory) not in sys.path:
             sys.path.insert(0, str(directory))

@@ -8,7 +8,7 @@ from unittest.mock import Mock
 import psycopg
 import pytest
 
-from material_main_window import MainWindow
+from audit_main_window import MainWindow
 
 
 @pytest.fixture(autouse=True)
