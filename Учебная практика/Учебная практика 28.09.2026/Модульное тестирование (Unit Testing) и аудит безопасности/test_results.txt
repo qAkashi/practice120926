@@ -1,0 +1,37 @@
+============================= test session starts =============================
+platform win32 -- Python 3.14.7, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\kamil\OneDrive\Desktop\hexlet\.venv\Scripts\python.exe
+rootdir: C:\Users\kamil\OneDrive\Desktop\hexlet\Учебная практика\Учебная практика 28.09.2026\Интеграция расчета материалов в интерфейс и отладка
+configfile: pytest.ini
+collecting ... collected 29 items
+
+Учебная практика\Учебная практика 28.09.2026\Интеграция расчета материалов в интерфейс и отладка\tests\test_material_window.py::test_real_calculation_title_and_shared_style PASSED [  3%]
+Учебная практика\Учебная практика 28.09.2026\Интеграция расчета материалов в интерфейс и отладка\tests\test_material_window.py::test_bad_input_shows_error_and_can_be_corrected[quantity-0] PASSED [  6%]
+Учебная практика\Учебная практика 28.09.2026\Интеграция расчета материалов в интерфейс и отладка\tests\test_material_window.py::test_bad_input_shows_error_and_can_be_corrected[quantity--5] PASSED [ 10%]
+Учебная практика\Учебная практика 28.09.2026\Интеграция расчета материалов в интерфейс и отладка\tests\test_material_window.py::test_bad_input_shows_error_and_can_be_corrected[quantity-1.5] PASSED [ 13%]
+Учебная практика\Учебная практика 28.09.2026\Интеграция расчета материалов в интерфейс и отладка\tests\test_material_window.py::test_bad_input_shows_error_and_can_be_corrected[quantity-] PASSED [ 17%]
+Учебная практика\Учебная практика 28.09.2026\Интеграция расчета материалов в интерфейс и отладка\tests\test_material_window.py::test_bad_input_shows_error_and_can_be_corrected[quantity-abc] PASSED [ 20%]
+Учебная практика\Учебная практика 28.09.2026\Интеграция расчета материалов в интерфейс и отладка\tests\test_material_window.py::test_bad_input_shows_error_and_can_be_corrected[product_type_id-999] PASSED [ 24%]
+Учебная практика\Учебная практика 28.09.2026\Интеграция расчета материалов в интерфейс и отладка\tests\test_material_window.py::test_bad_input_shows_error_and_can_be_corrected[material_type_id-999] PASSED [ 27%]
+Учебная практика\Учебная практика 28.09.2026\Интеграция расчета материалов в интерфейс и отладка\tests\test_material_window.py::test_bad_input_shows_error_and_can_be_corrected[product_type_id--1] PASSED [ 31%]
+Учебная практика\Учебная практика 28.09.2026\Интеграция расчета материалов в интерфейс и отладка\tests\test_material_window.py::test_bad_input_shows_error_and_can_be_corrected[material_type_id-0] PASSED [ 34%]
+Учебная практика\Учебная практика 28.09.2026\Интеграция расчета материалов в интерфейс и отладка\tests\test_material_window.py::test_bad_input_shows_error_and_can_be_corrected[product_type_id-abc] PASSED [ 37%]
+Учебная практика\Учебная практика 28.09.2026\Интеграция расчета материалов в интерфейс и отладка\tests\test_material_window.py::test_bad_input_shows_error_and_can_be_corrected[param_1--2] PASSED [ 41%]
+Учебная практика\Учебная практика 28.09.2026\Интеграция расчета материалов в интерфейс и отладка\tests\test_material_window.py::test_bad_input_shows_error_and_can_be_corrected[param_2--3] PASSED [ 44%]
+Учебная практика\Учебная практика 28.09.2026\Интеграция расчета материалов в интерфейс и отладка\tests\test_material_window.py::test_bad_input_shows_error_and_can_be_corrected[param_1-0] PASSED [ 48%]
+Учебная практика\Учебная практика 28.09.2026\Интеграция расчета материалов в интерфейс и отладка\tests\test_material_window.py::test_bad_input_shows_error_and_can_be_corrected[param_2-] PASSED [ 51%]
+Учебная практика\Учебная практика 28.09.2026\Интеграция расчета материалов в интерфейс и отладка\tests\test_material_window.py::test_bad_input_shows_error_and_can_be_corrected[param_1-NaN] PASSED [ 55%]
+Учебная практика\Учебная практика 28.09.2026\Интеграция расчета материалов в интерфейс и отладка\tests\test_material_window.py::test_bad_input_shows_error_and_can_be_corrected[param_2-inf] PASSED [ 58%]
+Учебная практика\Учебная практика 28.09.2026\Интеграция расчета материалов в интерфейс и отладка\tests\test_material_window.py::test_bad_input_shows_error_and_can_be_corrected[param_1--inf] PASSED [ 62%]
+Учебная практика\Учебная практика 28.09.2026\Интеграция расчета материалов в интерфейс и отладка\tests\test_material_window.py::test_bad_input_shows_error_and_can_be_corrected[param_2-1e9999] PASSED [ 65%]
+Учебная практика\Учебная практика 28.09.2026\Интеграция расчета материалов в интерфейс и отладка\tests\test_material_window.py::test_returned_minus_one_is_handled_without_showing_it_as_consumption PASSED [ 68%]
+Учебная практика\Учебная практика 28.09.2026\Интеграция расчета материалов в интерфейс и отладка\tests\test_material_window.py::test_comma_spaces_and_enter PASSED [ 72%]
+Учебная практика\Учебная практика 28.09.2026\Интеграция расчета материалов в интерфейс и отладка\tests\test_material_window.py::test_editing_after_success_invalidates_previous_result PASSED [ 75%]
+Учебная практика\Учебная практика 28.09.2026\Интеграция расчета материалов в интерфейс и отладка\tests\test_material_window.py::test_return_preserves_main_state_and_releases_grab[back] PASSED [ 79%]
+Учебная практика\Учебная практика 28.09.2026\Интеграция расчета материалов в интерфейс и отладка\tests\test_material_window.py::test_return_preserves_main_state_and_releases_grab[escape] PASSED [ 82%]
+Учебная практика\Учебная практика 28.09.2026\Интеграция расчета материалов в интерфейс и отладка\tests\test_material_window.py::test_return_preserves_main_state_and_releases_grab[cross] PASSED [ 86%]
+Учебная практика\Учебная практика 28.09.2026\Интеграция расчета материалов в интерфейс и отладка\tests\test_material_window.py::test_single_window_blocks_other_modals_and_closes_with_main PASSED [ 89%]
+Учебная практика\Учебная практика 28.09.2026\Интеграция расчета материалов в интерфейс и отладка\tests\test_material_window.py::test_can_calculate_without_database_login PASSED [ 93%]
+Учебная практика\Учебная практика 28.09.2026\Интеграция расчета материалов в интерфейс и отладка\tests\test_material_window.py::test_calculator_does_not_take_grab_from_partner_editor PASSED [ 96%]
+Учебная практика\Учебная практика 28.09.2026\Интеграция расчета материалов в интерфейс и отладка\tests\test_material_window.py::test_controls_and_result_visible_at_minimum_size PASSED [100%]
+
+============================= 29 passed in 6.79s ==============================

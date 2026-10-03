@@ -1,0 +1,71 @@
+============================= test session starts =============================
+platform win32 -- Python 3.14.7, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\kamil\OneDrive\Desktop\hexlet\.venv\Scripts\python.exe
+rootdir: C:\Users\kamil\OneDrive\Desktop\hexlet\Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье
+configfile: pytest.ini
+collecting ... collected 57 items
+
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\tests\test_material_calculator.py::test_formula_and_exact_ceiling[arguments0-95] PASSED [  1%]
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\tests\test_material_calculator.py::test_formula_and_exact_ceiling[arguments1-33] PASSED [  3%]
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\tests\test_material_calculator.py::test_formula_and_exact_ceiling[arguments2-12] PASSED [  5%]
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\tests\test_material_calculator.py::test_formula_and_exact_ceiling[arguments3-1050] PASSED [  7%]
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\tests\test_material_calculator.py::test_formula_and_exact_ceiling[arguments4-7] PASSED [  8%]
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\tests\test_material_calculator.py::test_formula_and_exact_ceiling[arguments5-8] PASSED [ 10%]
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\tests\test_material_calculator.py::test_formula_and_exact_ceiling[arguments6-1] PASSED [ 12%]
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\tests\test_material_calculator.py::test_formula_and_exact_ceiling[arguments7-10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000] PASSED [ 14%]
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\tests\test_material_calculator.py::test_formula_and_exact_ceiling[arguments8-95] PASSED [ 15%]
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\tests\test_material_calculator.py::test_ids_and_quantity_require_positive_integers[0-0] PASSED [ 17%]
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\tests\test_material_calculator.py::test_ids_and_quantity_require_positive_integers[0-1] PASSED [ 19%]
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\tests\test_material_calculator.py::test_ids_and_quantity_require_positive_integers[0-2] PASSED [ 21%]
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\tests\test_material_calculator.py::test_ids_and_quantity_require_positive_integers[-1-0] PASSED [ 22%]
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\tests\test_material_calculator.py::test_ids_and_quantity_require_positive_integers[-1-1] PASSED [ 24%]
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\tests\test_material_calculator.py::test_ids_and_quantity_require_positive_integers[-1-2] PASSED [ 26%]
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\tests\test_material_calculator.py::test_ids_and_quantity_require_positive_integers[1.5-0] PASSED [ 28%]
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\tests\test_material_calculator.py::test_ids_and_quantity_require_positive_integers[1.5-1] PASSED [ 29%]
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\tests\test_material_calculator.py::test_ids_and_quantity_require_positive_integers[1.5-2] PASSED [ 31%]
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\tests\test_material_calculator.py::test_ids_and_quantity_require_positive_integers[True-0] PASSED [ 33%]
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\tests\test_material_calculator.py::test_ids_and_quantity_require_positive_integers[True-1] PASSED [ 35%]
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\tests\test_material_calculator.py::test_ids_and_quantity_require_positive_integers[True-2] PASSED [ 36%]
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\tests\test_material_calculator.py::test_ids_and_quantity_require_positive_integers[1-0] PASSED [ 38%]
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\tests\test_material_calculator.py::test_ids_and_quantity_require_positive_integers[1-1] PASSED [ 40%]
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\tests\test_material_calculator.py::test_ids_and_quantity_require_positive_integers[1-2] PASSED [ 42%]
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\tests\test_material_calculator.py::test_ids_and_quantity_require_positive_integers[None-0] PASSED [ 43%]
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\tests\test_material_calculator.py::test_ids_and_quantity_require_positive_integers[None-1] PASSED [ 45%]
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\tests\test_material_calculator.py::test_ids_and_quantity_require_positive_integers[None-2] PASSED [ 47%]
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\tests\test_material_calculator.py::test_parameters_require_finite_positive_numbers[0-3] PASSED [ 49%]
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\tests\test_material_calculator.py::test_parameters_require_finite_positive_numbers[0-4] PASSED [ 50%]
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\tests\test_material_calculator.py::test_parameters_require_finite_positive_numbers[-0.1-3] PASSED [ 52%]
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\tests\test_material_calculator.py::test_parameters_require_finite_positive_numbers[-0.1-4] PASSED [ 54%]
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\tests\test_material_calculator.py::test_parameters_require_finite_positive_numbers[True-3] PASSED [ 56%]
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\tests\test_material_calculator.py::test_parameters_require_finite_positive_numbers[True-4] PASSED [ 57%]
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\tests\test_material_calculator.py::test_parameters_require_finite_positive_numbers[2-3] PASSED [ 59%]
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\tests\test_material_calculator.py::test_parameters_require_finite_positive_numbers[2-4] PASSED [ 61%]
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\tests\test_material_calculator.py::test_parameters_require_finite_positive_numbers[None-3] PASSED [ 63%]
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\tests\test_material_calculator.py::test_parameters_require_finite_positive_numbers[None-4] PASSED [ 64%]
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\tests\test_material_calculator.py::test_parameters_require_finite_positive_numbers[nan-3] PASSED [ 66%]
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\tests\test_material_calculator.py::test_parameters_require_finite_positive_numbers[nan-4] PASSED [ 68%]
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\tests\test_material_calculator.py::test_parameters_require_finite_positive_numbers[inf-3] PASSED [ 70%]
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\tests\test_material_calculator.py::test_parameters_require_finite_positive_numbers[inf-4] PASSED [ 71%]
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\tests\test_material_calculator.py::test_parameters_require_finite_positive_numbers[-inf-3] PASSED [ 73%]
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\tests\test_material_calculator.py::test_parameters_require_finite_positive_numbers[-inf-4] PASSED [ 75%]
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\tests\test_material_calculator.py::test_unknown_reference_ids[999-1] PASSED [ 77%]
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\tests\test_material_calculator.py::test_unknown_reference_ids[1-999] PASSED [ 78%]
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\tests\test_material_calculator.py::test_unknown_reference_ids[999-999] PASSED [ 80%]
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\tests\test_material_calculator.py::test_coefficients_are_read_by_id_on_each_call PASSED [ 82%]
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\tests\test_material_calculator.py::test_invalid_reference_values_return_minus_one[0-5] PASSED [ 84%]
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\tests\test_material_calculator.py::test_invalid_reference_values_return_minus_one[-1-5] PASSED [ 85%]
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\tests\test_material_calculator.py::test_invalid_reference_values_return_minus_one[coefficient2-5] PASSED [ 87%]
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\tests\test_material_calculator.py::test_invalid_reference_values_return_minus_one[True-5] PASSED [ 89%]
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\tests\test_material_calculator.py::test_invalid_reference_values_return_minus_one[1--0.1] PASSED [ 91%]
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\tests\test_material_calculator.py::test_invalid_reference_values_return_minus_one[1-100.01] PASSED [ 92%]
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\tests\test_material_calculator.py::test_invalid_reference_values_return_minus_one[1-defect6] PASSED [ 94%]
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\tests\test_material_calculator.py::test_invalid_reference_values_return_minus_one[1-5] PASSED [ 96%]
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\tests\test_material_calculator.py::test_one_hundred_percent_means_double_reserve PASSED [ 98%]
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\tests\test_material_calculator.py::test_method_has_exactly_five_required_parameters PASSED [100%]
+
+============================= 57 passed in 0.18s ==============================
+Name                                                                                                 Stmts   Miss Branch BrPart  Cover   Missing
+------------------------------------------------------------------------------------------------------------------------------------------------
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\material_calculator.py          30      0     12      0   100%
+Учебная практика\Учебная практика 28.09.2026\Расчет потребности в сырье\material_reference_data.py       8      0      0      0   100%
+------------------------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                                   38      0     12      0   100%
