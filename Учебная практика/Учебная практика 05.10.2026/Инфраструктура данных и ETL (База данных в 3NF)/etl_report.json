@@ -1,0 +1,170 @@
+{
+  "sources": {
+    "partners": {
+      "file": "partners_raw.csv",
+      "encoding": "UTF-8",
+      "sha256": "2969e40a2b1819bf49a3807e7d12cb66f9761cea5ca23929174072ca9f7ca120",
+      "input_rows": 5,
+      "accepted_rows": 5
+    },
+    "products": {
+      "file": "products_raw.csv",
+      "encoding": "Windows-1251",
+      "sha256": "e8f43b5b626de589faec24c01f59d06f4ea40338517338d61fba588bd815a88f",
+      "input_rows": 3,
+      "accepted_rows": 3
+    },
+    "sales_history": {
+      "file": "sales_history_raw.csv",
+      "encoding": "UTF-8",
+      "sha256": "126dc67dba4dd24cad7634ef66aaea5d5265cbe65e7a5103debdc630c3aa1eb0",
+      "input_rows": 6,
+      "accepted_rows": 5
+    }
+  },
+  "changes": [
+    {
+      "file": "partners_raw.csv",
+      "line": 2,
+      "field": "partner_name",
+      "before": " ООО \"Вектор\" ",
+      "after": "ООО \"Вектор\""
+    },
+    {
+      "file": "partners_raw.csv",
+      "line": 2,
+      "field": "email",
+      "before": " vector@mail.ru",
+      "after": "vector@mail.ru"
+    },
+    {
+      "file": "partners_raw.csv",
+      "line": 3,
+      "field": "partner_name",
+      "before": "ИП ...Петров  A.B.",
+      "after": "ИП ...Петров A.B."
+    },
+    {
+      "file": "partners_raw.csv",
+      "line": 3,
+      "field": "email",
+      "before": "petrov@yandex.ru ",
+      "after": "petrov@yandex.ru"
+    },
+    {
+      "file": "partners_raw.csv",
+      "line": 5,
+      "field": "partner_name",
+      "before": "  ООО \"Альфа\" ",
+      "after": "ООО \"Альфа\""
+    },
+    {
+      "file": "partners_raw.csv",
+      "line": 5,
+      "field": "email",
+      "before": "  alpha@gmail.com",
+      "after": "alpha@gmail.com"
+    },
+    {
+      "file": "products_raw.csv",
+      "line": 2,
+      "field": "product_name",
+      "before": " Ноутбук Pro ",
+      "after": "Ноутбук Pro"
+    },
+    {
+      "file": "products_raw.csv",
+      "line": 2,
+      "field": "price",
+      "before": "75000.0",
+      "after": "75000.00"
+    },
+    {
+      "file": "products_raw.csv",
+      "line": 3,
+      "field": "product_name",
+      "before": " Смартфон X ",
+      "after": "Смартфон X"
+    },
+    {
+      "file": "products_raw.csv",
+      "line": 3,
+      "field": "price",
+      "before": "45000.5",
+      "after": "45000.50"
+    },
+    {
+      "file": "products_raw.csv",
+      "line": 4,
+      "field": "price",
+      "before": "18200.0",
+      "after": "18200.00"
+    },
+    {
+      "file": "sales_history_raw.csv",
+      "line": 2,
+      "field": "sale_date",
+      "before": "25.10.2023",
+      "after": "2023-10-25"
+    },
+    {
+      "file": "sales_history_raw.csv",
+      "line": 3,
+      "field": "sale_date",
+      "before": "2023/10/26",
+      "after": "2023-10-26"
+    },
+    {
+      "file": "sales_history_raw.csv",
+      "line": 5,
+      "field": "sale_date",
+      "before": "28-10-2023",
+      "after": "2023-10-28"
+    },
+    {
+      "file": "sales_history_raw.csv",
+      "line": 6,
+      "field": "sale_date",
+      "before": "2023.10.29",
+      "after": "2023-10-29"
+    },
+    {
+      "file": "sales_history_raw.csv",
+      "line": 7,
+      "field": "sale_date",
+      "before": " 2023-10-30 ",
+      "after": "2023-10-30"
+    }
+  ],
+  "rejected": [
+    {
+      "file": "sales_history_raw.csv",
+      "line": 4,
+      "raw": {
+        "sale_id": "1003",
+        "partner_id": "999",
+        "product_id": "101",
+        "sale_date": "2023-10-27",
+        "quantity": "5",
+        "amount": "375000.0"
+      },
+      "reason": "Несуществующий partner_id=999"
+    }
+  ],
+  "duplicates": [],
+  "review": [
+    {
+      "partner_id": 2,
+      "message": "Многоточие в названии сохранено: без первоисточника исправлять ФИО нельзя"
+    }
+  ],
+  "expected_amounts": {
+    "1001": "150000.00",
+    "1002": "45000.50",
+    "1004": "182000.00",
+    "1005": "135001.50",
+    "1006": "18200.00"
+  },
+  "accepted_quantity": 17,
+  "accepted_amount": "530202.00"
+}

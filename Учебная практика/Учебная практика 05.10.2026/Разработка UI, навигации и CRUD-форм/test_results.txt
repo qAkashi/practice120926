@@ -1,0 +1,5 @@
+PostgreSQL 18, Python 3.14; 2026-10-11
+TEST_DATABASE_DSN: host=127.0.0.1 port=55439 dbname=postgres user=postgres
+Runner: run_tests.py
+............................................                             [100%]
+44 passed in 5.26s

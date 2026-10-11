@@ -1,0 +1,2 @@
+file,line,reason,raw
+sales_history_raw.csv,4,Несуществующий partner_id=999,"{""sale_id"": ""1003"", ""partner_id"": ""999"", ""product_id"": ""101"", ""sale_date"": ""2023-10-27"", ""quantity"": ""5"", ""amount"": ""375000.0""}"

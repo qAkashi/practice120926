@@ -1,0 +1,37 @@
+============================= test session starts =============================
+platform win32 -- Python 3.14.7, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\kamil\OneDrive\Desktop\hexlet\.venv\Scripts\python.exe
+rootdir: C:\Users\kamil\OneDrive\Desktop\hexlet\Учебная практика\Учебная практика 05.10.2026\Инфраструктура данных и ETL (База данных в 3NF)
+configfile: pytest.ini
+collecting ... collected 29 items
+
+Учебная практика\Учебная практика 05.10.2026\Инфраструктура данных и ETL (База данных в 3NF)\tests\test_database.py::test_import_and_repeated_run_preserve_the_same_rows PASSED [  3%]
+Учебная практика\Учебная практика 05.10.2026\Инфраструктура данных и ETL (База данных в 3NF)\tests\test_database.py::test_constraints_block_invalid_data[INSERT INTO partners VALUES (6, '\u0414\u0440\u0443\u0433\u043e\u0439', '7701234567', 'other@example.ru')] PASSED [  6%]
+Учебная практика\Учебная практика 05.10.2026\Инфраструктура данных и ETL (База данных в 3NF)\tests\test_database.py::test_constraints_block_invalid_data[INSERT INTO partners VALUES (6, '\u0414\u0440\u0443\u0433\u043e\u0439', '1234567890', 'vector@mail.ru')] PASSED [ 10%]
+Учебная практика\Учебная практика 05.10.2026\Инфраструктура данных и ETL (База данных в 3NF)\tests\test_database.py::test_constraints_block_invalid_data[INSERT INTO partners VALUES (6, NULL, '1234567890', 'other@example.ru')] PASSED [ 13%]
+Учебная практика\Учебная практика 05.10.2026\Инфраструктура данных и ETL (База данных в 3NF)\tests\test_database.py::test_constraints_block_invalid_data[INSERT INTO partners VALUES (6, '\u0414\u0440\u0443\u0433\u043e\u0439', '1234567890', 'VECTOR@MAIL.RU')] PASSED [ 17%]
+Учебная практика\Учебная практика 05.10.2026\Инфраструктура данных и ETL (База данных в 3NF)\tests\test_database.py::test_constraints_block_invalid_data[INSERT INTO sales_history VALUES (2000, 999, 101, '2023-10-31', 1, 75000)] PASSED [ 20%]
+Учебная практика\Учебная практика 05.10.2026\Инфраструктура данных и ETL (База данных в 3NF)\tests\test_database.py::test_constraints_block_invalid_data[INSERT INTO sales_history VALUES (2000, 1, 999, '2023-10-31', 1, 75000)] PASSED [ 24%]
+Учебная практика\Учебная практика 05.10.2026\Инфраструктура данных и ETL (База данных в 3NF)\tests\test_database.py::test_constraints_block_invalid_data[INSERT INTO sales_history VALUES (2000, 1, 101, '2023-10-31', 0, 75000)] PASSED [ 27%]
+Учебная практика\Учебная практика 05.10.2026\Инфраструктура данных и ETL (База данных в 3NF)\tests\test_database.py::test_constraints_block_invalid_data[INSERT INTO sales_history VALUES (2000, 1, 101, '2023-10-31', 1, -1)] PASSED [ 31%]
+Учебная практика\Учебная практика 05.10.2026\Инфраструктура данных и ETL (База данных в 3NF)\tests\test_database.py::test_constraints_block_invalid_data[DELETE FROM partners WHERE partner_id = 1] PASSED [ 34%]
+Учебная практика\Учебная практика 05.10.2026\Инфраструктура данных и ETL (База данных в 3NF)\tests\test_database.py::test_constraints_block_invalid_data[DELETE FROM products WHERE product_id = 101] PASSED [ 37%]
+Учебная практика\Учебная практика 05.10.2026\Инфраструктура данных и ETL (База данных в 3NF)\tests\test_database.py::test_generated_sql_can_be_imported_and_history_price_does_not_change PASSED [ 41%]
+Учебная практика\Учебная практика 05.10.2026\Инфраструктура данных и ETL (База данных в 3NF)\tests\test_etl.py::test_provided_files_are_cleaned_without_losing_amounts PASSED [ 44%]
+Учебная практика\Учебная практика 05.10.2026\Инфраструктура данных и ETL (База данных в 3NF)\tests\test_etl.py::test_supported_date_formats[25.10.2023] PASSED [ 48%]
+Учебная практика\Учебная практика 05.10.2026\Инфраструктура данных и ETL (База данных в 3NF)\tests\test_etl.py::test_supported_date_formats[2023/10/25] PASSED [ 51%]
+Учебная практика\Учебная практика 05.10.2026\Инфраструктура данных и ETL (База данных в 3NF)\tests\test_etl.py::test_supported_date_formats[25-10-2023] PASSED [ 55%]
+Учебная практика\Учебная практика 05.10.2026\Инфраструктура данных и ETL (База данных в 3NF)\tests\test_etl.py::test_supported_date_formats[2023.10.25] PASSED [ 58%]
+Учебная практика\Учебная практика 05.10.2026\Инфраструктура данных и ETL (База данных в 3NF)\tests\test_etl.py::test_supported_date_formats[ 2023-10-25 ] PASSED [ 62%]
+Учебная практика\Учебная практика 05.10.2026\Инфраструктура данных и ETL (База данных в 3NF)\tests\test_etl.py::test_invalid_dates_are_rejected[31.02.2023] PASSED [ 65%]
+Учебная практика\Учебная практика 05.10.2026\Инфраструктура данных и ETL (База данных в 3NF)\tests\test_etl.py::test_invalid_dates_are_rejected[] PASSED [ 68%]
+Учебная практика\Учебная практика 05.10.2026\Инфраструктура данных и ETL (База данных в 3NF)\tests\test_etl.py::test_invalid_dates_are_rejected[10/25/2023] PASSED [ 72%]
+Учебная практика\Учебная практика 05.10.2026\Инфраструктура данных и ETL (База данных в 3NF)\tests\test_etl.py::test_invalid_dates_are_rejected[yesterday] PASSED [ 75%]
+Учебная практика\Учебная практика 05.10.2026\Инфраструктура данных и ETL (База данных в 3NF)\tests\test_etl.py::test_invalid_money_is_rejected[NaN] PASSED [ 79%]
+Учебная практика\Учебная практика 05.10.2026\Инфраструктура данных и ETL (База данных в 3NF)\tests\test_etl.py::test_invalid_money_is_rejected[Infinity] PASSED [ 82%]
+Учебная практика\Учебная практика 05.10.2026\Инфраструктура данных и ETL (База данных в 3NF)\tests\test_etl.py::test_invalid_money_is_rejected[-1] PASSED [ 86%]
+Учебная практика\Учебная практика 05.10.2026\Инфраструктура данных и ETL (База данных в 3NF)\tests\test_etl.py::test_invalid_money_is_rejected[1.001] PASSED [ 89%]
+Учебная практика\Учебная практика 05.10.2026\Инфраструктура данных и ETL (База данных в 3NF)\tests\test_etl.py::test_invalid_money_is_rejected[1000000000000] PASSED [ 93%]
+Учебная практика\Учебная практика 05.10.2026\Инфраструктура данных и ETL (База данных в 3NF)\tests\test_etl.py::test_duplicates_and_other_broken_keys_are_quarantined PASSED [ 96%]
+Учебная практика\Учебная практика 05.10.2026\Инфраструктура данных и ETL (База данных в 3NF)\tests\test_etl.py::test_outputs_are_repeatable_and_contain_iso_dates PASSED [100%]
+
+============================= 29 passed in 6.62s ==============================
